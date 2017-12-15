@@ -1,6 +1,6 @@
 {
   "name": "npm-package-test-chrisp",
-  "version": "0.0.0",
+  "version": "0.1.2",
   "description": "",
   "keywords": [],
   "main": "dist/npm-package-test-chrisp.umd.js",
@@ -19,7 +19,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "lint": "tslint --type-check -p 'tsconfig.json' codeFrame 'src/**/*.ts'",
+    "lint": "tslint -p tsconfig.json codeFrame 'src/**/*.ts'",
     "prebuild": "rimraf dist",
     "build": "tsc && rollup -c && rimraf compiled && typedoc --out dist/docs --target es6 --theme minimal --exclude '**/*.spec.ts' src",
     "start": "tsc-watch --onSuccess \"rollup -c\"",
