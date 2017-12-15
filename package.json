@@ -12,7 +12,7 @@
   "author": "Chris Palic <chris@chrispalic.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/chrispalic/npm-package-test-chrisp"
   },
   "license": "MIT",
   "engines": {

@@ -2,5 +2,6 @@
 
 I would not use this unless you are me. I'm just doing some random testing of npm publishing and exporting and layout of code for my own knowledge.
 
+Go here for our documentation: (https://github.com/chrispalic/npm-package-test-chrisp)
 
 
