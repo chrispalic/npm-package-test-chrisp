@@ -3,9 +3,9 @@
 export class EntryPoint {
 /**
  * This is a basic parrot function
- * 
- * @param {string} whatToParrot 
- * @returns {string} 
+ *
+ * @param {string} whatToParrot
+ * @returns {string}
  * @memberof EntryPoint
  */
 public entryPoint (whatToParrot: string): string {
@@ -14,6 +14,20 @@ public entryPoint (whatToParrot: string): string {
     }
 }
 
-export function testFunc(whatToParrot: string): string {
+export function TestFunc(whatToParrot: string): string {
     return whatToParrot;
+}
+
+export class EntryPoint2 {
+    constructor() {}
+
+    public entryPoint (whatToParrot: string): string {
+        return whatToParrot;
+    }
+}
+
+export interface IFileType {
+    name: string;
+    contents: any;
+    fileDate?: string;
 }
