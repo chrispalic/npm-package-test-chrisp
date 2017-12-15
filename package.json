@@ -1,6 +1,6 @@
 {
   "name": "npm-package-test-chrisp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "keywords": [],
   "main": "dist/npm-package-test-chrisp.umd.js",
