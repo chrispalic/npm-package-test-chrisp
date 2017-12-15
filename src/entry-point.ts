@@ -13,7 +13,13 @@ public entryPoint (whatToParrot: string): string {
         return text;
     }
 }
-
+/**
+ * This is a test function that takes in a string and returns it back to you.
+ * 
+ * @export
+ * @param {string} whatToParrot 
+ * @returns {string} 
+ */
 export function TestFunc(whatToParrot: string): string {
     return whatToParrot;
 }
