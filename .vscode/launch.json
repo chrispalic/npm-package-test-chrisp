@@ -17,6 +17,31 @@
         "${workspaceRoot}/dist/**/*"
       ],
       "cwd": "${workspaceRoot}"
-    }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest Tests",
+      "program": "${workspaceRoot}\\node_modules\\jest\\bin\\jest.js",
+      "args": [
+          "-i"
+      ],
+      "preLaunchTask": "build",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outFiles": [
+          "${workspaceRoot}/dist/**/*"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest All",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest",
+      "args": [
+          "--runInBand"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+  },
   ]
 }
